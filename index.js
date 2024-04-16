@@ -19,11 +19,6 @@ const questions = [
     },
     {
         type: "input",
-        name: "table_of_contents",
-        message: "Create a table of content for your project: "
-    },
-    {
-        type: "input",
         name: "installation",
         message: "Describe how to install your project: "
     },
@@ -35,7 +30,7 @@ const questions = [
     {
         type: "input",
         name: "contributors",
-        message: "Add a description of how to become a contributor in this project: "
+        message: "Any contributors in this project: "
     },
     {
         type: "input",
@@ -43,7 +38,7 @@ const questions = [
         message: "How to test your project: "
     },
     {
-        type: "checkbox",
+        type: "list",
         name: "licenses",
         message: "Please select the license you want to associate with this project.",
         choices: ["MIT", "APACHE2.0", "BSD-3", "MPL-2.0", "GPLv3", "none"]
@@ -62,14 +57,14 @@ const questions = [
 
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
-    return fs.writeFileSync(`./db/${fileName}`, data);
+    return fs.writeFileSync(fileName, data);
 }
 
 // TODO: Create a function to initialize app
 function init() {}
     inquirer.prompt(questions).then((responses) => {
         console.log('Professional README.md has been created.');
-        writeToFile("./db/README.md", generateMarkdown({...responses}));
+        writeToFile("db/README.md", generateMarkdown({...responses}));
     });
 // Function call to initialize app
 init();
