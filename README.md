@@ -1,10 +1,16 @@
 # CHALLENGE 9 PROFESSIONAL README GENERATOR
 
 ## DESCRIPTION
-
+Have you ever been confused on how to create a Professional README.md file? Well, look no further! You can now simply run this application and you will be prompted with multiple questions to help write your README.md file. Just follow the prompts and answer them accordingly. This application will format it to the perfect README file.
 
 ## HOW TO USE
+To use this program, it is simple. You must first have node installed. To check if you have it installed, open a new terminal, type 'node --version'. If you have it installed, you should see a version number. If you do not have node installed, then head over to 'https://nodejs.org/en/download'. Download the correct node for your operating system and install.
 
+![alt terminal.jpg](./assets/images/terminal.jpg)
+
+Once installed, open a new terminal in your VS Code and type 'node index.js'. This will run the program and you will be presented with multiple questions to fill out. Once you've completed all the questions, your README.md file will be created under the 'db' folder tab. CONGRATULATIONS! You have successfully created a professional README file.
+
+![alt sample-README.jpg](./assets/images/sample-README-resize.jpg)
 
 ## ACCEPTANCE CRITERIA
 GIVEN a command-line application that accepts user input\
@@ -24,11 +30,4 @@ WHEN I click on the links in the Table of Contents\
 THEN I am taken to the corresponding section of the README
 
 ## VIEWING MY PROJECT
-To view live page, open your browser (preferably Google Chrome), then enter <i>ENTER LIVE PAGE HERE</i> in your address bar.
-
-Link to Deployed Application: <i>ENTER DEPLOYED APPLICATION HERE</i>
-
-
-# Professional README Generator Starter Code (DELETE LATER)
-
-[How to create a Professional README](https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide)
+Link to Deployed Application: <i>https://github.com/rapostoljr/challenge_9_generating_professional_readme.git</i>
