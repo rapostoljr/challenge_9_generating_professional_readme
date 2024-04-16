@@ -2,7 +2,6 @@
 // If there is no license, return an empty string
 function renderLicenseBadge(license) {
   let badge = "";
-  console.log("Badge " + license);
   if (license === "MIT") {
     badge = "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)]";
   } else if (license === "APACHE2.0") {
@@ -16,7 +15,6 @@ function renderLicenseBadge(license) {
   } else {
     badge = "";
   }
-  console.log(badge)
   return badge;
 }
 
@@ -24,7 +22,6 @@ function renderLicenseBadge(license) {
 // If there is no license, return an empty string
 function renderLicenseLink(license) {
   let licenseLink = "";
-  console.log("Link: " + license);
   if (license === "MIT") {
     licenseLink = "(https://opensource.org/licenses/ISC)";
   } else if (license === "APACHE2.0") {
@@ -38,7 +35,6 @@ function renderLicenseLink(license) {
   } else {
     licenseLink = "";
   }
-  console.log(licenseLink)
   return licenseLink;
 }
 

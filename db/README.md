@@ -1,5 +1,5 @@
 
-  # sddfad
+  # Best README Ever!
 
   ## TABLE OF CONTENTS
   ### * [License](#licenses)
@@ -14,21 +14,21 @@
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/ISC)
 
   ## DESCRIPTION
-  dfasdf
+  I am creating this project to show how my README generator works.
 
   ## INSTALLATION
-  dfa
+  To install this project, go to my deploy and clone repository.
 
   ## HOW TO USE
-  fda
+  Open terminal, as long as you have node installed, you just type in node index.js
   
   ## CONTRIBUTORS
-  ers
+  none
 
   ## HOW TO TEST
-  ads
+  If there are tests created, you type npm test
 
   ## QUESTIONS
   If you have any questions, you may contact me at:
-  * GitHub: https://github.com/dfas
-  * Email: fda
+  * GitHub: https://github.com/rapostoljr
+  * Email: romuloapostol@gmail.com
